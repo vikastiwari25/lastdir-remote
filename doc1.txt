@@ -1,0 +1,4 @@
+const AddTransactionView = (props) => {
+	const [amount, setAmount] = usestate();
+	const [desc, setDesc] = useState();
+	const [type, setType] = useState("Expanse")
